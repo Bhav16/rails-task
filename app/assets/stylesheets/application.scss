@@ -1,0 +1,32 @@
+@import "bootstrap/scss/bootstrap";
+
+h1{
+  text-align: center;
+  margin: 16px;
+}
+
+a {
+  color:brown(195, 238, 223);
+}
+
+a:hover {
+  background-color: rgb(150, 144, 137);
+  color: black
+  (182, 182, 177);
+}
+
+
+ul{
+  list-style: circle;
+}
+
+form{
+  text-align: center;
+  padding: 12px 20px;
+  margin: 16px 0;
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
